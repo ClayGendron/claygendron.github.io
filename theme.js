@@ -1,3 +1,5 @@
+/*
+
 const themeToggleButton = document.getElementById('theme-toggle');
 const themeIcon = document.getElementById('theme-icon');
 const body = document.body;
@@ -25,3 +27,5 @@ function setTheme(theme) {
     localStorage.setItem('theme', 'light');
   }
 }
+
+*/
