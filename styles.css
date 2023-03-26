@@ -6,7 +6,7 @@
 }
 
 .dark-theme {
-  --bg-color: #222222;
+  --bg-color: #444444;
   --text-color: #ffffff;
 }
 
@@ -34,7 +34,7 @@ main {
 }
 
 footer {
-  background-color: #333333;
+  background-color: #222222;
   color: #ffffff;
   text-align: center;
   font-family: 'IBM Plex Sans', sans-serif;
@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .custom-navbar {
-  background-color: #333333;
+  background-color: #222222;
 }
 
 body.dark-theme {
