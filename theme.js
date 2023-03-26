@@ -3,7 +3,7 @@ const themeIcon = document.getElementById('theme-icon');
 const body = document.body;
 
 // Load the saved theme from localStorage or set it to 'dark' by default
-const savedTheme = localStorage.getItem('theme') || 'dark';
+const savedTheme = localStorage.getItem('theme') || 'light';
 setTheme(savedTheme);
 
 themeToggleButton.addEventListener('click', () => {
