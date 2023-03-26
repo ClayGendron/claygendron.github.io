@@ -1,0 +1,6 @@
+/* CSS HEX */
+--majorelle-blue: #5847ecff;
+--saffron: #f0c359ff;
+--platinum: #e0e0e0ff;
+--jet: #303030ff;
+--keppel: #42c5b5ff;

@@ -1,0 +1,146 @@
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --primary-color: #14213D;
+  --secondary-color: #FCA311;
+}
+
+.dark-theme {
+  --bg-color: #222222;
+  --text-color: #ffffff;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: 'Open Sans', sans-serif;
+  transition: background-color 0.5s, color 0.5s;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.bold-body-text {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  background-color: #333333;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 300;
+  font-size: 0.75rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 300;
+}
+
+.hi-text {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.navbar-brand {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 300;
+}
+
+.nav-link {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 300;
+}
+
+.custom-navbar {
+  background-color: #333333;
+}
+
+body.dark-theme {
+  --bg-color: #222222;
+  --text-color: #ffffff;
+}
+
+@keyframes rise {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.rise-animation, .rise-animation-img {
+  opacity: 0;
+  animation-name: rise;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+.rise-animation:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.rise-animation:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+.rise-animation:nth-child(4) {
+  animation-delay: 0.6s;
+}
+
+.rise-animation:nth-child(5) {
+  animation-delay: 0.8s;
+}
+
+.rise-animation:nth-child(6) {
+  animation-delay: 1s;
+}
+
+.rise-animation-img {
+  animation-delay: 0s;
+}
+
+.resume-jumbotron {
+  background-color: #eeeeee;
+  padding: 2rem;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+}
+
+.resume-jumbotron:first-of-type {
+  margin-top: 1rem;
+}
+
+.resume-jumbotron:nth-child(1) {
+  animation-delay: 0.2s;
+}
+
+.resume-jumbotron:nth-child(2) {
+  animation-delay: 0.4s;
+}
+
+.resume-jumbotron:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+.resume-jumbotron:nth-child(4) {
+  animation-delay: 0.8s;
+}
+
+.resume-jumbotron:nth-child(5) {
+  animation-delay: 1s;
+}
