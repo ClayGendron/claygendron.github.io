@@ -29,6 +29,23 @@ body {
   font-weight: 700;
 }
 
+.italicized-body-text {
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+}
+
+.italicized-small-body-text {
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  font-size: 0.75rem;
+}
+
+.subtext-div {
+  margin: 0 auto;
+  width: 800px;
+  padding-top: 100px;
+}
+
 main {
   flex: 1;
 }
